@@ -1,0 +1,274 @@
+
+
+crimson-pro {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: black;
+  color: goldenrod;
+
+}
+
+header {
+    background-color: black;
+    color: goldenrod;
+    padding: 1em;
+    justify-items: center;
+}
+
+.logo {
+    height: 200px;
+    width: 250px;
+}
+.navbar {
+    position: absolute;
+    top: 1em; /* 1em from the top */
+    right: 1em; /* 1em from the right */
+    display: flex;
+    gap: 1em;
+    background-color: black;
+    color: goldenrod;
+}
+
+.navbar a {
+    color: goldenrod; /* Link color */
+    text-decoration: none;
+    padding: 0.5em 1em; /* Top/Bottom padding 0.5em, Left/Right padding 1em */
+    transition: background-color 0.3s; /* smoother hover effect */
+}
+
+.navbar a:hover {
+    background-color: goldenrod; /*Background color on hover */
+    color: black; /* Text color on hover */
+}
+.info {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding: 1em;
+}
+
+.info a {
+    color: goldenrod;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1.5em;
+}
+
+#vision {
+    display: flex;
+    background-color: black;
+    color: goldenrod;
+    padding: 2em;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#vision h2 {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#vision p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+.main {
+    padding: 2em;
+    background-color: black;
+    color: goldenrod;
+}
+
+#our-portfolio {
+    display: flex;
+    background-color: black;
+    color: goldenrod;
+    padding: 2em;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+#our_portfolio h2 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#portfolio_images {
+    display: flex;
+    gap: 1em;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    
+}
+
+
+
+#our_portfolio .image1 img {
+    max-width : 300px;
+    max-height: 200px;
+}
+
+#our_portfolio .image1 p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    
+    
+}
+
+#our_portfolio .image2 img {
+    max-width : 200px;
+    max-height: 200px;
+    
+    
+}
+
+#our_portfolio .image2 p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#our_portfolio .image3 img {
+    max-width : 200px;
+    max-height: 200px;
+    
+}
+
+#our_portfolio .image3 p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#our_portfolio .image4 img {
+    max-width : 200px;
+    max-height: 200px;
+    
+}
+
+#our_portfolio .image4 p {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    
+
+}
+
+.our_team {
+    display: flex;
+    background-color: black;
+    color: goldenrod;
+    padding: 2em;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+}
+
+ h2 {
+    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
+    justify-self: center;
+}
+
+#the_musician img {
+    max-width : 200px;
+    max-height: 200px;
+    align-self: left;
+    
+}
+
+#the_musician h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#the_musician p {
+    margin: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+#The_leader img{
+    max-width : 200px;
+    max-height: 200px;
+    align-self: center;
+    margin-left: 20px;
+}
+
+#The_leader h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#The_leader p {
+    margin: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+#The_technician img {
+    max-width : 200px;
+    max-height: 200px;
+    align-self: right;
+    margin-left: 20px;
+}
+
+#The_technician h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#The_technician p {
+    margin: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 20px;
+    max-width: 300px;
+}
+footer {
+    background-color: black;
+    color: goldenrod;
+    padding: 1em;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
